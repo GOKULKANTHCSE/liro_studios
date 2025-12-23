@@ -6,7 +6,7 @@ import Link from "next/link";
 import React from "react";
 
 // Get the first 5 main services for the showcase
-const serviceItems = servicesData.slice(0, 5).map((service, index) => ({
+const serviceItems = servicesData.slice(0, 5).map((service) => ({
     id: `tp-service-${service.id}`,
     img: service.image,
     title: service.title,

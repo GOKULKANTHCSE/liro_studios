@@ -1,5 +1,4 @@
 import MobileMenus from '@/layouts/subComponents/MobileMenus';
-import logo from '../../../public/assets/img/logo/logo.png';
 import MobileOffcanvas from '@/components/offcanvas/MobileOffcanvas';
 import React, { useState } from 'react';
 import { MenubarIcon } from '@/svg';

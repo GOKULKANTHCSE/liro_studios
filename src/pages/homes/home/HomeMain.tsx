@@ -5,7 +5,6 @@ import HomeMainTestimonial from '@/components/testimonial/HomeMainTestimonial';
 // import HomeMainTextSlider from '@/components/text-slider/HomeMainTextSlider';
 import { useCursorAndBackground } from '@/hooks/useCursorAndBackground';
 // import ModernAgencyAward from '@/components/award/ModernAgencyAward';
-import HomeMainFunFact from '@/components/funfact/HomeMainFunFact';
 import HomeMainProject from '@/components/project/HomeMainProject';
 import HomeMainService from '@/components/service/HomeMainService';
 import HomeMainVideo from '@/components/video-area/HomeMainVideo';

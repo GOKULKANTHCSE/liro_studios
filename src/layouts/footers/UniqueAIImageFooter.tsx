@@ -1,6 +1,5 @@
 import UniqueAICopyright from './subComponents/UniqueAICopyright';
-import { EmailIconFour, FooterShape } from '@/svg';
-import { ArrowFive } from '@/svg/ArrowIcons';
+import { FooterShape } from '@/svg';
 import Link from 'next/link';
 import React from 'react';
 

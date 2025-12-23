@@ -1,5 +1,4 @@
 
-import logo from '../../../public/assets/img/logo/logo.png';
 import { FooterSocialIcons } from './subComponents/FooterSocialIcons';
 import StartupCopyright from './subComponents/StartupCopyright';
 import { ArrowSixteen } from '@/svg/ArrowIcons';

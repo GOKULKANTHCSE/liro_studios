@@ -1,5 +1,4 @@
 import MobileApplicationCopyright from './subComponents/MobileApplicationCopyright';
-import logo from '../../../public/assets/img/logo/logo.png';
 import { ArrowSvg, SendEmailIcon, StarIcon } from '@/svg';
 import Image from 'next/image';
 import Link from 'next/link';

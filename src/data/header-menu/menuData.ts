@@ -1,5 +1,4 @@
-import { MenuItem } from "@/types/menu-d-t";
-import MegaMenuThumb from "../../../public/assets/img/menu/menu-1.png";
+
 // const headerMenuData:MenuItem[] = [
 //   {
 //     id: 1,

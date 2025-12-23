@@ -1,4 +1,3 @@
-import logo from '../../../public/assets/img/logo/logo.png';
 import OffCanvasPanel from '@/components/offcanvas/OffCanvasPanel';
 import useStickyHeader from '@/hooks/useStickyHeader';
 import useGlobalContext from '@/hooks/useContext';
