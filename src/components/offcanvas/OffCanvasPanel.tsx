@@ -2,8 +2,7 @@ import offcanvas1 from "../../../public/assets/img/offcanvas/offcanvas-1.jpg";
 import offcanvas2 from "../../../public/assets/img/offcanvas/offcanvas-2.jpg";
 import offcanvas3 from "../../../public/assets/img/offcanvas/offcanvas-3.jpg";
 import offcanvas4 from "../../../public/assets/img/offcanvas/offcanvas-4.jpg";
-import logoBlack from '../../../public/assets/img/logo/logo-black.png';
-import logoWhite from '../../../public/assets/img/logo/logo.png';
+import logo from '../../../public/assets/img/logo/logo.png';
 import PhotoProviderWrapper from '../shared/PhotoProviderWrapper';
 import { CrossIconTwo, DribbleTwo, InstagramSvg } from '@/svg';
 import MainMobileMenu from "../../layouts/subComponents/MainMobileMenu";
@@ -37,8 +36,7 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                     <div className="tp-offcanvas-top d-flex align-items-center justify-content-between">
                         <div className="tp-offcanvas-logo">
                             <Link href="/">
-                                <Image className="logo-1" width={120} src={logoBlack} alt="logo-black" />
-                                <Image className="logo-2" width={120} src={logoWhite} alt="logo-white" />
+                                <Image width={120} src={logo} alt="logo" />
                             </Link>
                         </div>
                         <div className="tp-offcanvas-close">
@@ -73,9 +71,12 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                         <div className="tp-offcanvas-contact">
                             <h3 className="tp-offcanvas-title sm">Information</h3>
                             <ul>
-                                <li><Link href="tel:1245654">+ 4 20 7700 1007</Link></li>
-                                <li><Link href="mailto:hello@diego.com">hello@diego.com</Link></li>
-                                <li><Link href="#">Avenue de Roma 158b, Lisboa</Link></li>
+                                <li><Link href="tel:+91 877 879 6477">+91 877 879 6477</Link></li>
+                                <li><Link href="mailto:lirostudios@gmail.com">lirostudios@gmail.com</Link></li>
+                                <li><Link href="#">Liro Studios, Law College,
+Chinnakollapatty,
+Salem,TAMIL NADU-636008
+India</Link></li>
                             </ul>
                         </div>
                         <div className="tp-offcanvas-social">
