@@ -12,6 +12,7 @@ const MainMobileMenu = () => {
                             {menuItem.title}
                         </Link>
                     </li>
+                 
                 ))}
             </ul>
         </>
