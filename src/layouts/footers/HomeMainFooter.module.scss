@@ -1,0 +1,330 @@
+/* HomeMainFooter.module.scss */
+
+$text-dark: #333;
+$text-light: #777;
+$bg-light: #f8f8f8;
+$border-color: #e5e5e5;
+$white: #fff;
+
+.footer {
+    background-color: $white;
+    color: $text-dark;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Newsletter Section */
+.newsletterSection {
+    background-color: $bg-light;
+    padding: 40px 20px;
+    border-bottom: 1px solid $border-color;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}
+
+.newsletterContent {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.newsletterTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.newsletterForm {
+    display: flex;
+    gap: 5px;
+    flex: 1;
+    max-width: 450px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.emailInput {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid $border-color;
+    background-color: $white;
+    font-size: 13px;
+    font-family: inherit;
+
+    &::placeholder {
+        color: #aaa;
+    }
+
+    &:focus {
+        outline: none;
+        border-color: $text-dark;
+    }
+}
+
+.subscribeBtn {
+    padding: 12px 25px;
+    background-color: $text-dark;
+    color: $white;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+
+    &:hover {
+        background-color: lighten($text-dark, 15%);
+    }
+}
+
+.successMessage {
+    color: #28a745;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Main Footer */
+.footerMain {
+    padding: 50px 20px;
+    background-color: $white;
+    border-bottom: 1px solid $border-color;
+
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+        gap: 40px;
+
+        @media (max-width: 1024px) {
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        @media (max-width: 640px) {
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+    }
+}
+
+.footerColumn {
+    &:first-child {
+        grid-column: 1;
+
+        @media (max-width: 1024px) {
+            grid-column: 1 / -1;
+        }
+    }
+}
+
+.columnTitle {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: $text-dark;
+}
+
+.description {
+    font-size: 13px;
+    line-height: 1.7;
+    color: $text-light;
+    margin: 0 0 15px 0;
+}
+
+.readMore {
+    color: $text-dark;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: $text-light;
+    }
+}
+
+.footerLinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+        margin-bottom: 12px;
+    }
+}
+
+.footerLink {
+    color: $text-light;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: $text-dark;
+    }
+}
+
+/* Partner Section */
+.partnerSection {
+    padding: 40px 20px;
+    background-color: $bg-light;
+    border-bottom: 1px solid $border-color;
+
+    .container {
+        text-align: center;
+    }
+}
+
+.partnerTitle {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: $text-dark;
+    letter-spacing: 1px;
+}
+
+.partnerLogos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    margin-bottom: 25px;
+
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 480px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.partnerLogo {
+    padding: 15px;
+    background-color: $white;
+    border: 1px solid $border-color;
+    transition: all 0.3s ease;
+
+    a {
+        color: $text-light;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+        display: block;
+        transition: color 0.3s ease;
+    }
+
+    &:hover {
+        border-color: $text-dark;
+        background-color: $text-dark;
+
+        a {
+            color: $white;
+        }
+    }
+}
+
+.seeAll {
+    color: $text-dark;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: $text-light;
+    }
+}
+
+/* Footer Bottom */
+.footerBottom {
+    background-color: $text-dark;
+    color: $text-light;
+    padding: 25px 20px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}
+
+.bottomContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.copyright {
+    font-size: 12px;
+    margin: 0;
+    color: $text-light;
+
+    a {
+        color: $white;
+        text-decoration: none;
+        transition: color 0.3s ease;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.footerBottomLinks {
+    display: flex;
+    gap: 15px;
+
+    @media (max-width: 768px) {
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+.bottomLink {
+    color: $text-light;
+    text-decoration: none;
+    font-size: 12px;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: $white;
+    }
+}
