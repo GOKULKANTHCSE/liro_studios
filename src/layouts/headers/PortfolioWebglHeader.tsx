@@ -2,7 +2,6 @@ import MobileMenus from '@/layouts/subComponents/MobileMenus';
 import MobileOffcanvas from '@/components/offcanvas/MobileOffcanvas';
 import React, { useState } from 'react';
 import { MenubarIcon } from '@/svg';
-import Image from 'next/image';
 import Link from 'next/link';
 
 interface PortfolioWebglHeaderProps {
@@ -14,9 +13,7 @@ interface PortfolioWebglHeaderProps {
 
 const PortfolioWebglHeader: React.FC<PortfolioWebglHeaderProps> = (
     {
-        customClass = 'header-transparent',
-        logoWidth = 120
-
+        customClass = 'header-transparent'
     }) => {
     const [openOffCanvas, setOpenOffCanvas] = useState(false);
 
@@ -30,11 +27,7 @@ const PortfolioWebglHeader: React.FC<PortfolioWebglHeaderProps> = (
                                 <div className="tp-header-14-left">
                                     <div className="tp-header-logo">
                                         <Link href="/">
-                                            <Image
-                                                src={logo}
-                                                alt="logo"
-                                                width={logoWidth}
-                                            />
+                                            {/* Logo placeholder */}
                                         </Link>
                                     </div>
                                 </div>

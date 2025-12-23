@@ -4,7 +4,6 @@ import useGlobalContext from '@/hooks/useContext';
 import NavMenus from '../subComponents/NavMenus';
 import { SearchIcon } from '@/svg';
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 interface ShopModernHeaderProps {
@@ -41,7 +40,7 @@ const ShopModernHeader: React.FC<ShopModernHeaderProps> = ({ variantClass = "" }
                             <div className="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-6">
                                 <div className="tp-header-shop-logo text-xl-center">
                                     <Link href="/">
-                                        <Image width={120} src={logo} alt="logo" />
+                                        {/* Logo placeholder */}
                                     </Link>
                                 </div>
                             </div>

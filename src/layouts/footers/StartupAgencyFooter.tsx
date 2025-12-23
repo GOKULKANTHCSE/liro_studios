@@ -2,7 +2,6 @@
 import { FooterSocialIcons } from './subComponents/FooterSocialIcons';
 import StartupCopyright from './subComponents/StartupCopyright';
 import { ArrowSixteen } from '@/svg/ArrowIcons';
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -17,7 +16,7 @@ const StartupAgencyFooter = () => {
                             <div className="col-xl-5 col-lg-5 col-md-7">
                                 <div className="st-footer-widget st-footer-col-1 mb-70 tp_fade_anim" data-delay=".3">
                                     <div className="ar-footer-logo mb-30">
-                                        <Link href="/"><Image width={140} src={logoBlack} alt="logo-black" /></Link>
+                                        <Link href="/">{/* Logo placeholder */}</Link>
                                     </div>
                                     <div className="st-footer-widget-content">
                                         <p>

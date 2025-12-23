@@ -1,7 +1,6 @@
 import MobileMenus from '@/layouts/subComponents/MobileMenus';
 import MobileOffcanvas from '@/components/offcanvas/MobileOffcanvas';
 import React, { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const PortfolioThumbSliderHeader = () => {
@@ -17,7 +16,7 @@ const PortfolioThumbSliderHeader = () => {
                                 <div className="tp-header-14-wrapper d-flex align-items-center justify-content-between">
                                     <div className="tp-header-14-left">
                                         <div className="tp-header-logo">
-                                            <Link href="/"><Image width={120} src={logoWhite} alt="logo white"></Image></Link>
+                                            <Link href="/">{/* Logo placeholder */}</Link>
                                         </div>
                                     </div>
                                     <div className="tp-header-14-right d-flex align-items-center">

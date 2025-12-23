@@ -4,7 +4,6 @@ import useStickyHeader from '@/hooks/useStickyHeader';
 import NavMenus from '../subComponents/NavMenus';
 import React, { useState } from 'react';
 import { EmailIconThree } from "@/svg";
-import Image from 'next/image';
 import Link from 'next/link';
 
 const DigitalMarketingHeader = () => {
@@ -21,7 +20,7 @@ const DigitalMarketingHeader = () => {
                             <div className="col-xl-1 col-lg-5 col-5">
                                 <div className="tp-header-logo">
                                     <Link href="/">
-                                        <Image className="logo-white" width={120} src={logoBlack} alt="logo" />
+                                        {/* Logo placeholder */}
                                     </Link>
                                 </div>
                             </div>

@@ -3,7 +3,6 @@ import useStickyHeader from '@/hooks/useStickyHeader';
 import HeaderTop from './subComponents/HeaderTop';
 import NavMenus from '../subComponents/NavMenus';
 import React, { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const MobileApplicationHeader = () => {
@@ -26,7 +25,7 @@ const MobileApplicationHeader = () => {
                                     <div className="col-xl-2 col-lg-4 col-md-6 col-5">
                                         <div className="tp-header-10-logo">
                                             <Link href="/">
-                                                <Image width={120} src={logoBlack} alt="logo-light" />
+                                                {/* Logo placeholder */}
                                             </Link>
                                         </div>
                                     </div>

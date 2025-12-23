@@ -1,5 +1,4 @@
 import React from 'react';
-import PortfolioDetailsFourFunfact from '../funfact/PortfolioDetailsFourFunfact';
 
 const PortfolioDetailsFourWork = () => {
     return (
@@ -33,8 +32,6 @@ const PortfolioDetailsFourWork = () => {
                         </div>
                     </div>
                 </div>
-                {/* counter area */}
-                <PortfolioDetailsFourFunfact />
             </div>
         </div>
     );

@@ -1,6 +1,5 @@
 import MobileApplicationCopyright from './subComponents/MobileApplicationCopyright';
 import { ArrowSvg, SendEmailIcon, StarIcon } from '@/svg';
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -15,7 +14,7 @@ const MobileApplicationFooter = () => {
                             <div className="dgm-footer-widget app-footer-col-1 z-index-1">
                                 <div className="dgm-footer-logo mb-30">
                                     <Link href="/">
-                                        <Image width={120} src={logoBlack} alt="logo black" />
+                                        {/* Logo placeholder */}
                                     </Link>
                                 </div>
                                 <div className="dgm-footer-widget-paragraph mb-35">

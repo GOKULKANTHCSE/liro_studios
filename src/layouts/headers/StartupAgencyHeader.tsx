@@ -4,7 +4,6 @@ import useGlobalContext from '@/hooks/useContext';
 import NavMenus from '../subComponents/NavMenus';
 import { ArrowThirteen, SearchIcon } from '@/svg';
 import React, { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const StartupAgencyHeader = () => {
@@ -26,7 +25,7 @@ const StartupAgencyHeader = () => {
                                 <div className="tp-header-12-wrapper d-flex align-items-center justify-content-between">
                                     <div className="tp-header-8-left d-flex align-items-center">
                                         <div className="tp-header-logo">
-                                            <Link href="/"> <Image width={120} src={logoBlack} alt="logo" /></Link>
+                                            <Link href="/"> {/* Logo placeholder */}</Link>
                                         </div>
                                     </div>
                                     <div className="tp-header-12-middle">

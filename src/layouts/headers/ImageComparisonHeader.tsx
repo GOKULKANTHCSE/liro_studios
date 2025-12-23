@@ -2,7 +2,6 @@ import MobileMenus from '@/layouts/subComponents/MobileMenus';
 import MobileOffcanvas from '@/components/offcanvas/MobileOffcanvas';
 import React, { useState } from 'react';
 import { MenubarIcon } from '@/svg';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const ImageComparisonHeader = () => {
@@ -18,7 +17,7 @@ const ImageComparisonHeader = () => {
                                 <div className="tp-header-14-left">
                                     <div className="tp-header-logo">
                                         <Link href="/">
-                                            <Image src={blackLogo} width={120} alt="logo" />
+                                            {/* Logo placeholder */}
                                         </Link>
                                     </div>
                                 </div>

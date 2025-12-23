@@ -75,7 +75,7 @@ const FaqMain = () => {
                         <FaqArea />
 
                     </main>
-                    <HomeMainFooter bgColor="#F6F6F9" buttonCls='tp-footer-white-style' />
+                    <HomeMainFooter />
                 </div>
             </div>
         </>
