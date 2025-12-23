@@ -15,7 +15,6 @@ interface PortfolioWebglHeaderProps {
 const PortfolioWebglHeader: React.FC<PortfolioWebglHeaderProps> = (
     {
         customClass = 'header-transparent',
-        logoBlack,
         logoWidth = 120
 
     }) => {

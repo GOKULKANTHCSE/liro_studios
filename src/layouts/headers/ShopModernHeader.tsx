@@ -12,7 +12,7 @@ interface ShopModernHeaderProps {
     useWhiteLogo?: boolean;
 }
 
-const ShopModernHeader: React.FC<ShopModernHeaderProps> = ({ variantClass = "", useWhiteLogo = false }) => {
+const ShopModernHeader: React.FC<ShopModernHeaderProps> = ({ variantClass = "" }) => {
     const { toggleSearch, toggleCartOffcanvas } = useGlobalContext();
     const [openOffCanvas, setOpenOffCanvas] = useState(false);
     const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);

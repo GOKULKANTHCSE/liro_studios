@@ -1,5 +1,5 @@
 import MobileMenus from '@/layouts/subComponents/MobileMenus';
-import whiteLogo from '../../../public/assets/img/logo/logo-white.png';
+// import whiteLogo from '../../../public/assets/img/logo/logo-white.png';
 import MobileOffcanvas from '@/components/offcanvas/MobileOffcanvas';
 import React, { useState } from 'react';
 import { MenubarIcon } from '@/svg';
@@ -19,7 +19,7 @@ const PersonalPortfolioHeader = () => {
                                 <div className="tp-header-14-left">
                                     <div className="tp-header-logo">
                                         <Link href="/">
-                                            <Image src={whiteLogo} width={120} alt="logo" />
+                                            {/* <Image src={whiteLogo} width={120} alt="logo" /> */}
                                         </Link>
                                     </div>
                                 </div>
