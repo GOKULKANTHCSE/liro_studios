@@ -1,5 +1,5 @@
 import MobileMenus from '@/layouts/subComponents/MobileMenus';
-// import whiteLogo from '../../../public/assets/img/logo/logo-white.png';
+import whiteLogo from '../../../public/assets/img/logo/logo-white.png';
 import MobileOffcanvas from '@/components/offcanvas/MobileOffcanvas';
 import React, { useState } from 'react';
 import { MenubarIcon } from '@/svg';
